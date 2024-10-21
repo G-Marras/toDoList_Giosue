@@ -1,12 +1,12 @@
 import mongoose from 'mongoose';
 const dbName = 'todolist'
-const user='augustociuccatosti'
+const user='giosuemarras'
 
-const password='pippocalogero'
+const password='GiosueMarras0'
 
 const connectionUrl = `mongodb+srv://
 ${user}:${password}
-@clustertodolist.lc6tm.mongodb.net/${dbName}?retryWrites=true&w=majority&appName=ClusterToDoList'`
+@clustertodolist.phc8r.mongodb.net/${dbName}?retryWrites=true&w=majority&appName=ClusterToDoList'`
 
 const connect = async () => {
   try {
